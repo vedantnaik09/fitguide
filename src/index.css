@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content{
+   height: 0;
+   padding: 0;
+   overflow: hidden;
+   /* transition: all 0.5s ease-out ;  */
+}
+.show .content{
+    height: auto;   
+    padding: 1.2em;
+    /* transition: all 0.5s linear;  */
+}
+.show .pull{
+    margin-top: -0.8rem;
+}
